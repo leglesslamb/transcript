@@ -1,0 +1,19 @@
+[package]
+name = "transcript"
+version = "0.1.0"
+authors = ["leglesslamb <wu.rupert@outlook.com>"]
+edition = "2018"
+description = "A transcriptor for European scripts."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bin"
+path = "src/bin.rs"
