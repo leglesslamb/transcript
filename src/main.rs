@@ -14,7 +14,7 @@ fn main() {
         ("-lb", 3) => "Latin => Braille; not implemented!".to_string(),
         ("-lc", 3) => "Latin => Cyrillic; not implemented!".to_string(),
         ("-lg", 3) => "Latin => Greek; not implemented!".to_string(),
-        ("-lr", 3) => "Latin => Runic; not implemented!".to_string(),
+        ("-lref", 3) => transcript::latin_to_elder_futhark(&args[2]),
         _ => INVALID.to_string(),
     };
 

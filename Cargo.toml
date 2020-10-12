@@ -1,19 +1,20 @@
 [package]
 name = "transcript"
-version = "0.1.0"
+version = "0.1.11"
 authors = ["leglesslamb <wu.rupert@outlook.com>"]
 edition = "2018"
-description = "A transcriptor for European scripts."
+description = "A transcriber for European scripts."
 license = "MIT"
+repository = "https://github.com/leglesslamb/transcript"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 
 [lib]
-name = "lib"
+name = "transcript"
 path = "src/lib.rs"
 
 [[bin]]
-name = "bin"
-path = "src/bin.rs"
+name = "transcript"
+path = "src/main.rs"
