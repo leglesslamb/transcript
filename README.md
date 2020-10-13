@@ -13,7 +13,7 @@ There is some augmentation in some rules to cover more script characters.
 
   ```sh
   transcript -lref "This is in Elder Futhark."
-  Tᚺᛁᛊ ᛁᛊ ᛁᚾ Eᛚᛞᛖᚱ Fᚢᚦᚨᚱᚲ.
+  ᚦᛁᛊ ᛁᛊ ᛁᚾ ᛖᛚᛞᛖᚱ ᚠᚢᚦᚨᚱᚲ.
   ```
 
 ---

@@ -1,6 +1,6 @@
 [package]
 name = "transcript"
-version = "0.1.11"
+version = "0.1.12"
 authors = ["leglesslamb <wu.rupert@outlook.com>"]
 edition = "2018"
 description = "A transcriber for European scripts."
